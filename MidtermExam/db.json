@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Getting Started with Vue 3 Composition API",
+      "body": "The Vue 3 Composition API provides a new way to organize component logic. It introduces the setup() function where we can define reactive state, computed properties, and methods. This approach offers better TypeScript support and more flexible code organization compared to the Options API. In this post, we'll explore the basics of the Composition API and how it can improve your Vue applications.",
+      "tags": [
+        "vue",
+        "javascript",
+        "frontend"
+      ],
+      "createdAt": "2024-03-15T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Building a Blog with JSON Server",
+      "body": "JSON Server is a fantastic tool for prototyping and mocking REST APIs. It allows you to create a full fake REST API with zero coding in less than 30 seconds. In this tutorial, we'll build a blog application using JSON Server as our backend, demonstrating how to perform CRUD operations and handle relationships between different resources.",
+      "tags": [
+        "api",
+        "javascript",
+        "backend"
+      ],
+      "createdAt": "2024-03-14T15:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "CSS Grid Layout: A Complete Guide",
+      "body": "CSS Grid Layout is a powerful tool that has revolutionized how we create web layouts. It provides a two-dimensional system, meaning it can handle both columns and rows. This guide covers everything from basic concepts to advanced techniques, including grid templates, grid areas, and responsive design patterns.",
+      "tags": [
+        "css",
+        "frontend",
+        "web-design"
+      ],
+      "createdAt": "2024-03-13T09:15:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Understanding JavaScript Promises",
+      "body": "Promises are a fundamental concept in modern JavaScript development. They provide a cleaner way to handle asynchronous operations compared to callbacks. This post explores how Promises work, including chaining, error handling, and the async/await syntax that makes asynchronous code look and behave more like synchronous code.",
+      "tags": [
+        "javascript",
+        "async",
+        "programming"
+      ],
+      "createdAt": "2024-03-12T14:45:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Responsive Design Best Practices",
+      "body": "Creating websites that work well across all devices is crucial in today's mobile-first world. This article covers essential responsive design practices, including flexible grids, responsive images, media queries, and mobile-first development. We'll also explore common pitfalls and how to avoid them.",
+      "tags": [
+        "css",
+        "frontend",
+        "web-design",
+        "mobile"
+      ],
+      "createdAt": "2024-03-11T11:20:00.000Z"
+    },
+    {
+      "id": "fdc4",
+      "title": "Href",
+      "body": "akdlkadklza",
+      "tags": [
+        "vue"
+      ],
+      "createdAt": "2025-03-24T01:20:53.793Z"
+    }
+  ],
+  "taglist": [
+    {
+      "id": "1",
+      "name": "vue"
+    },
+    {
+      "id": "2",
+      "name": "javascript"
+    },
+    {
+      "id": "3",
+      "name": "frontend"
+    },
+    {
+      "id": "4",
+      "name": "composition-api"
+    },
+    {
+      "id": "5",
+      "name": "tutorial"
+    },
+    {
+      "id": "6",
+      "name": "json-server"
+    },
+    {
+      "id": "7",
+      "name": "bootstrap"
+    }
+  ]
+}

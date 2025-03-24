@@ -1,0 +1,204 @@
+{
+    "livres": [
+        {
+            "id": 1,
+            "titre": "Le Petit Prince",
+            "auteur": "Antoine de Saint-Exupéry",
+            "annee": 1943,
+            "categorie": "Fiction",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un pilote, contraint d'atterrir dans le désert, fait la rencontre d'un mystérieux petit prince venu des étoiles."
+        },
+        {
+            "id": 2,
+            "titre": "1984",
+            "auteur": "George Orwell",
+            "annee": 1949,
+            "categorie": "Science-Fiction",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Dans un monde totalitaire, Winston Smith tente de maintenir son humanité face à un régime oppressif."
+        },
+        {
+            "id": 3,
+            "titre": "Les Misérables",
+            "auteur": "Victor Hugo",
+            "annee": 1862,
+            "categorie": "Classique",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "L'histoire de Jean Valjean, un ancien bagnard qui tente de se racheter dans la France du XIXe siècle."
+        },
+        {
+            "id": 4,
+            "titre": "L'Étranger",
+            "auteur": "Albert Camus",
+            "annee": 1942,
+            "categorie": "Philosophie",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Meursault, un jeune Français d'Algérie, apprend le décès de sa mère et fait face à l'absurdité de la vie."
+        },
+        {
+            "id": 5,
+            "titre": "Madame Bovary",
+            "auteur": "Gustave Flaubert",
+            "annee": 1857,
+            "categorie": "Classique",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Emma Bovary, épouse d'un médecin de campagne, cherche à échapper à la monotonie de sa vie provinciale."
+        },
+        {
+            "id": 6,
+            "titre": "Le Comte de Monte-Cristo",
+            "auteur": "Alexandre Dumas",
+            "annee": 1844,
+            "categorie": "Roman",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "L'histoire d'Edmond Dantès, trahi et emprisonné, qui cherche à se venger."
+        },
+        {
+            "id": 7,
+            "titre": "Germinal",
+            "auteur": "Émile Zola",
+            "annee": 1885,
+            "categorie": "Roman",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Une fresque sociale sur la vie des mineurs de charbon au XIXe siècle."
+        },
+        {
+            "id": 8,
+            "titre": "Notre-Dame de Paris",
+            "auteur": "Victor Hugo",
+            "annee": 1831,
+            "categorie": "Roman",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Une histoire d'amour et de tragédie autour de la cathédrale Notre-Dame."
+        },
+        {
+            "id": 9,
+            "titre": "English Grammar in Use",
+            "auteur": "Raymond Murphy",
+            "annee": 1985,
+            "categorie": "Langues",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un livre de référence pour apprendre la grammaire anglaise."
+        },
+        {
+            "id": 10,
+            "titre": "Le Bon Usage",
+            "auteur": "Maurice Grevisse",
+            "annee": 1936,
+            "categorie": "Langues",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un livre détaillé sur la grammaire et l'usage du français."
+        },
+        {
+            "id": 11,
+            "titre": "Spanish for Dummies",
+            "auteur": "Susana Wald",
+            "annee": 2007,
+            "categorie": "Langues",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un guide pratique pour apprendre l'espagnol facilement."
+        },
+        {
+            "id": 12,
+            "titre": "Japanese for Busy People",
+            "auteur": "AJALT",
+            "annee": 1995,
+            "categorie": "Langues",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un livre populaire pour apprendre le japonais de manière pratique."
+        },
+        {
+            "id": 13,
+            "titre": "Deutsch perfekt",
+            "auteur": "Sprachmagazin",
+            "annee": 2010,
+            "categorie": "Langues",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un magazine et guide pour apprendre l'allemand."
+        },
+        {
+            "id": 14,
+            "titre": "Introduction to the Theory of Computation",
+            "auteur": "Michael Sipser",
+            "annee": 1996,
+            "categorie": "Computer Science",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un livre sur la théorie des langages formels et des automates."
+        },
+        {
+            "id": 15,
+            "titre": "Computer Networking: A Top-Down Approach",
+            "auteur": "James F. Kurose, Keith W. Ross",
+            "annee": 2000,
+            "categorie": "Networking",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Une introduction moderne aux réseaux informatiques."
+        },
+        {
+            "id": 16,
+            "titre": "Artificial Intelligence: A Modern Approach",
+            "auteur": "Stuart Russell, Peter Norvig",
+            "annee": 1995,
+            "categorie": "AI",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un des manuels de référence sur l'intelligence artificielle."
+        },
+        {
+            "id": 17,
+            "titre": "Linear Algebra and Its Applications",
+            "auteur": "Gilbert Strang",
+            "annee": 1976,
+            "categorie": "Mathematics",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un livre fondamental sur l'algèbre linéaire appliquée."
+        },
+        {
+            "id": 18,
+            "titre": "Calculus",
+            "auteur": "James Stewart",
+            "annee": 1987,
+            "categorie": "Mathematics",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un des livres de calcul les plus utilisés en université."
+        },
+        {
+            "id": 19,
+            "titre": "Critique de la raison pure",
+            "auteur": "Immanuel Kant",
+            "annee": 1781,
+            "categorie": "Philosophie",
+            "statut": "disponible",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Une œuvre majeure de la philosophie qui examine les limites et les possibilités de la raison pure."
+        },
+        {
+            "id": 20,
+            "titre": "Ainsi parlait Zarathoustra",
+            "auteur": "Friedrich Nietzsche",
+            "annee": 1883,
+            "categorie": "Philosophy",
+            "statut": "emprunté",
+            "image": "https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg",
+            "resume": "Un livre philosophique qui explore le concept du surhomme et la morale."
+        }
+    ]
+} 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    pre {
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 5px;
+      overflow: auto;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>JSON Server API Test</h1>
+  
+  <div>
+    <button id="testPosts">Test Posts API</button>
+    <button id="testTags">Test Tags API</button>
+    <button id="clearOutput">Clear Output</button>
+  </div>
+  
+  <h2>Results:</h2>
+  <div id="output">
+    <p>Click a button to test the API</p>
+  </div>
+
+  <script>
+    const output = document.getElementById('output');
+    const API_URL = 'http://localhost:3000';
+
+    document.getElementById('testPosts').addEventListener('click', async () => {
+      output.innerHTML = '<p>Testing posts API...</p>';
+      try {
+        const response = await fetch(`${API_URL}/posts`);
+        const status = response.status;
+        
+        output.innerHTML += `<p>Response status: ${status}</p>`;
+        
+        if (response.ok) {
+          const data = await response.json();
+          output.innerHTML += '<p>Posts data:</p>';
+          output.innerHTML += `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        } else {
+          output.innerHTML += `<p class="error">Error: ${response.statusText}</p>`;
+        }
+      } catch (err) {
+        output.innerHTML += `<p class="error">Error: ${err.message}</p>`;
+        output.innerHTML += '<p>Possible causes:</p>';
+        output.innerHTML += '<ul>';
+        output.innerHTML += '<li>JSON Server is not running</li>';
+        output.innerHTML += '<li>CORS policy is blocking the request</li>';
+        output.innerHTML += '<li>Network connectivity issues</li>';
+        output.innerHTML += '</ul>';
+      }
+    });
+
+    document.getElementById('testTags').addEventListener('click', async () => {
+      output.innerHTML = '<p>Testing taglist API...</p>';
+      try {
+        const response = await fetch(`${API_URL}/taglist`);
+        const status = response.status;
+        
+        output.innerHTML += `<p>Response status: ${status}</p>`;
+        
+        if (response.ok) {
+          const data = await response.json();
+          output.innerHTML += '<p>Tags data:</p>';
+          output.innerHTML += `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        } else {
+          output.innerHTML += `<p class="error">Error: ${response.statusText}</p>`;
+        }
+      } catch (err) {
+        output.innerHTML += `<p class="error">Error: ${err.message}</p>`;
+      }
+    });
+
+    document.getElementById('clearOutput').addEventListener('click', () => {
+      output.innerHTML = '<p>Output cleared</p>';
+    });
+  </script>
+</body>
+</html> 
